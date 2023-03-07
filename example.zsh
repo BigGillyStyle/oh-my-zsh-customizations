@@ -11,6 +11,7 @@
 
 # aliases
 alias dc='docker-compose'
+alias ni='npm install'
 
 # exports
 export EDITOR='vim';
