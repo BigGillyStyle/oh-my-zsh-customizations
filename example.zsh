@@ -21,3 +21,9 @@ function gacp() {
   git commit -m "$1"
   git push
 }
+
+function gpri() {
+  git pull
+  git remote prune origin
+  npm install
+}
