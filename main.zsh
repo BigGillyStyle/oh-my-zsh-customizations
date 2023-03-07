@@ -17,6 +17,11 @@ alias ni='npm install'
 export EDITOR='vim';
 
 # functions
+function gac() {
+  git add --all
+  git commit -m "$1"
+}
+
 function gacp() {
   git add --all
   git commit -m "$1"
